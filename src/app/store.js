@@ -14,6 +14,7 @@ import storage from 'redux-persist/lib/storage';
 import userReducer from './user/userSlice';
 import shopReducer from './shop/shopSlice';
 
+// persisting store in localstorage for database and offline simulation
 const persistConfig = {
   key: 'root',
   storage,

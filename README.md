@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+It is a basic CRUD implementation: users can log in, see, add, delete and edit products in a virtual store which is persisted in localstorage using [Redux-Persist](https://www.npmjs.com/package/redux-persist) to provide database-like experience.
 
 ## Available Scripts
 

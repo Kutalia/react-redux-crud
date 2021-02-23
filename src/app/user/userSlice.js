@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = null;
 
+// automatically generates action creators and reducers, avoids extensive testing
 const userSlice = createSlice({
     name: 'user',
     initialState,
@@ -9,7 +10,7 @@ const userSlice = createSlice({
         login: (state, action) => {
             return action.payload;
         },
-        logout: (state) => {
+        logout: () => {
             return initialState;
         },
     },
